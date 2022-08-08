@@ -135,7 +135,7 @@ h1.box3 {
     color: #888;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 801px) {
   .letter {
     font-size: 12px;
     grid-template-columns: 100px 30px 40px 80px 40px;
