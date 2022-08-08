@@ -31,30 +31,41 @@ Ao clicar na seta de voltar (na tela com mais informações do clima) o usuário
 
 ## Inicialização do Projeto
 
-<h5>API</h5>
+<strong>API
 
-API criada utilizando Node.JS + Express.
-
-```
+Criada utilizando Node.JS + Express.</strong>
 
 Acesse a pasta correspondente a API desta aplicação que está no github de forma independente, clone-a,
 e em seguida execute os passos abaixo:
 
 ```
-
 cd weather_api
+```
 
 // Instalando bibliotecas
+
+```
 yarn install
 
+ou
+
+npm install
+```
+
 // Iniciando a API
+
+```
 yarn start
+
+ou
+
+npm start
 
 ```
 
-<h5>Frontend</h5>
+<strong>Front-end
 
-Front-end criado utilizando React através do CRA.
+Criado utilizando React através do CRA.</strong>
 
 ```
 
@@ -66,7 +77,10 @@ yarn install
 // Iniciando o Front-end
 yarn start
 
+```
 
+<br>
+<br>
 
  <h2>Feito por Lucélia Batista 🚀 </h2>
   <img style="heigth: 200px; width: 200px" src="https://avatars.githubusercontent.com/u/86496770?v=4">
@@ -79,3 +93,7 @@ Contatos:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Lucelia-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luceliabatista/)](https://www.linkedin.com/in/luceliabatista/)
 [![Gmail Badge](https://img.shields.io/badge/-lucelia.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucelia.dev@gmail.com)](mailto:lucelia.dev@gmail.com)
+
+```
+
+```
