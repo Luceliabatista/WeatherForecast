@@ -1,0 +1,196 @@
+body {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("../public/assets/sky.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.box {
+  color: #6aa2d1;
+  text-align: left;
+  margin-top: 2px;
+}
+
+h1.box3 {
+  font-size: 40px;
+}
+
+.options {
+  background-color: rgba(255, 255, 255, 0.77);
+  font-size: 20px;
+  padding: 7.5px 15px;
+  max-width: 685px;
+  width: 100%;
+}
+.options:hover {
+  color: #d2b3c1;
+  cursor: pointer;
+}
+.options:first-child {
+  padding-top: 15px;
+}
+.options:last-child {
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 4px rgba(106, 162, 209, 0.8);
+}
+
+.vector {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.language {
+  font-size: 10px;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.language button {
+  cursor: pointer;
+}
+
+.language img {
+  padding: 0 7px;
+}
+
+.grau {
+  position: absolute;
+  top: 45px;
+  right: 70px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 0px;
+  text-align: center;
+}
+
+.noContent {
+  border-radius: 10px 10px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.temper {
+  font-size: 64px;
+  margin: 40px 0;
+}
+
+.text-center {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+}
+
+.letter {
+  text-transform: capitalize;
+  display: grid;
+  grid-template-columns: 170px 50px 60px 190px 60px 200px;
+  align-items: center;
+  font-size: 18px;
+  gap: 0px;
+  max-width: 650px;
+  width: 100%;
+}
+
+.letter img {
+  max-width: 100%;
+}
+
+.letter span {
+  text-align: left;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+  .card {
+    padding: 2em;
+  }
+  .read-the-docs {
+    color: #888;
+  }
+}
+@media screen and (max-width: 800px) {
+  .letter {
+    font-size: 12px;
+    grid-template-columns: 100px 30px 40px 80px 40px;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  h1.box3 {
+    padding: 20px 0 0 0;
+    font-size: 30px;
+  }
+
+  .letter span {
+    display: none;
+  }
+
+  .language {
+    font-size: 13px;
+  }
+
+  .language img {
+    padding: 0 7px;
+  }
+
+  .uppercase {
+    font-size: 29px;
+  }
+
+  .temper {
+    font-size: 45px;
+    margin: 13px 0 25px 0;
+  }
+
+  .options {
+    font-size: 18px;
+    max-width: 290px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .vector {
+    top: 25px;
+    left: 25px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .grau {
+    top: 25px;
+    right: 30px;
+    font-size: 14px;
+  }
+
+  .grau img {
+    width: 40px;
+    height: 20px;
+  }
+}
