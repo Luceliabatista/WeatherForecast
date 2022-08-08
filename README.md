@@ -68,14 +68,27 @@ npm start
 Criado utilizando React através do CRA.</strong>
 
 ```
-
 cd weather_forecast
+```
 
 // Instalando bibliotecas
+
+```
 yarn install
 
+ou
+
+npm install
+
+```
 // Iniciando o Front-end
+
+```
 yarn start
+
+ou
+
+npm start
 
 ```
 
