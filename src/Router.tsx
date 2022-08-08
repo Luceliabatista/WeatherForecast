@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { ConsultForecast } from "../../weather_forecast/src/pages/consultForecast";
-import { CurrentWeather } from "../../weather_forecast/src/pages/currentWeather";
-import { FutureClimate } from "../../weather_forecast/src/pages/futureClimate";
+import { ConsultForecast } from "./pages/consultForecast";
+import { CurrentWeather } from "./pages/currentWeather";
+import { FutureClimate } from "./pages/futureClimate";
 
 export function Router() {
   return (
